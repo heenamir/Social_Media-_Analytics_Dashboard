@@ -1,6 +1,5 @@
 import streamlit as st
 import pandas as pd
-from wordcloud import WordCloud
 
 
 # Load the dataset
