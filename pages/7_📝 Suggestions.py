@@ -5,6 +5,16 @@ import random
 # Load the dataset
 data = pd.read_excel("preprocessed_categorized_file.xlsx")
 
+# Define categories to exclude
+exclude_categories = ["Headphones reviews", "Tech tutorial", "Wearable and devices"]
+
+# Filter categories
+filtered_categories = [
+    category
+    for category in data["Category"].unique()
+    if category not in exclude_categories
+]
+
 # Define placeholders and their substitutes
 substitutes = {
     "[topic]": [
@@ -92,7 +102,7 @@ def main():
     st.title("YouTube Channel Suggestions")
 
     # Add select box to choose category
-    category = st.selectbox("Select Category", sorted(suggestions.keys()))
+    category = st.selectbox("Select Category", sorted(filtered_categories))
 
     # Display suggestions for the selected category
     st.write(f"Here are some suggestions for the '{category}' category:")
