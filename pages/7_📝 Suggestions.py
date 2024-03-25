@@ -6,13 +6,13 @@ import random
 data = pd.read_excel("preprocessed_categorized_file.xlsx")
 
 # Define categories to exclude
-exclude_categories = ["Headphones reviews", "Tech tutorial", "Wearable and devices"]
+exclude_categories = ["headphones reviews", "tech tutorial", "wearable and devices"]
 
 # Filter categories
 filtered_categories = [
     category
     for category in data["Category"].unique()
-    if category not in exclude_categories
+    if category.lower() not in map(str.lower, exclude_categories)
 ]
 
 # Define placeholders and their substitutes
