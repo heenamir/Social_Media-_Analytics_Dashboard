@@ -6,7 +6,7 @@ import random
 data = pd.read_excel("preprocessed_categorized_file.xlsx")
 
 # Define categories to exclude
-exclude_categories = ["headphones reviews", "tech tutorial", "wearable and devices"]
+exclude_categories = ["headphones reviews", "tech tutorial", "wearable & devices"]
 
 # Filter categories
 filtered_categories = [
