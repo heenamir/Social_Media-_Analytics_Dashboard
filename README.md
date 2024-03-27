@@ -8,7 +8,7 @@ To run this project locally, follow these steps:
 
 1. Clone this repository to your local machine:
    ```bash
-   git clone https://github.com/your-username/smart-dashboard.git
+   git clone [https://github.com/your-username/smart-dashboard.git](https://github.com/heenamir/Social_Media-_Analytics_Dashboard.git)
 
 2. Install the required Python packages using pip:
     ```bash
