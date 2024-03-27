@@ -21,13 +21,16 @@ To run this project locally, follow these steps:
 This will start a local server and open the Smart Dashboard application in your default web browser.
 
 ### Usage
+
 Once the application is running, you can interact with the various components of the dashboard to view and analyze the provided data.
 
 ### Hosted Version
+
 You can access the hosted version of this application at the following link:
 [Smart Dashboard Hosted Version](https://group21-smadashboard.streamlit.app/)
 
 ### Contributing
+
 If you'd like to contribute to this project, please follow these steps:
 
 1. Fork the repository on GitHub.
@@ -36,6 +39,7 @@ If you'd like to contribute to this project, please follow these steps:
 4. Push your branch to your fork and submit a pull request.
 
 ### Contact
+
 For questions or feedback, please contact the project maintainers:
 
 - Heena Mirchandani (heenamirchandani03@gmail.com)
